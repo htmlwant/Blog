@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(124, 174, 240);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; 
+    flex-direction: column;
+    width: 100%;
+}
+
+.modify_table {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    max-width: 900px; 
+    background-color: white;
+    padding: 30px;  
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    height: auto;
+}
+
+.modify_table th {
+    background-color: #2C2C2C; 
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.modify_table td {
+    padding: 15px;
+    text-align: left;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.modify_btns {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 20px;
+    width: 100%;
+}
+
+.modify_btn1 {
+    font-size: 18px;
+    padding: 12px 25px;  
+    background-color: #3C3C3C;
+    color: white;
+    border: none;
+    border-radius: 8px;  
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+    width: 48%; 
+}
+
+.modify_btn1:hover {
+    background-color: #57A0EE;
+    transform: scale(1.1);
+}
